@@ -1,0 +1,39 @@
+*{
+    padding: 0; /*區域外邊界歸零*/
+    margin: 0; /*區域內邊界歸零*/
+}
+c1{
+    font-size: 30;
+    color:pink;
+    background-color:black;
+}
+h1{
+    background-image: linear-gradient(rgb(166, 204, 240),rgb(255,255,255));
+    text-shadow: 3px 3px 5px rgb(0,0,0);
+}
+
+table{
+    border: solid 1px rgb(25, 100, 200);
+    width: auto;
+    text-align: center;
+    margin: 2em 3em;
+}
+
+tr, th, td{
+    border-collapse: collapse;
+    border: dashed 1px rgb(166, 204, 240);
+    width: auto;
+    margin: 4em 4em;
+}
+
+ol li{
+    padding-left: 2em;
+    margin-left: 2em;
+}
+ul li{
+    font-size: 35;
+    color: purple;
+    padding-left: 2em;
+    margin-left: 2em;
+    background-color: blanchedalmond;
+}
