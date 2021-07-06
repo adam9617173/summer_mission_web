@@ -2,17 +2,33 @@
     padding: 0; /*區域外邊界歸零*/
     margin: 0; /*區域內邊界歸零*/
 }
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 c1{
     font-size: 30;
     color:pink;
     background-color:black;
 }
+
 h1{
     background-image: linear-gradient(rgb(166, 204, 240),rgb(255,255,255));
     text-shadow: 3px 3px 5px rgb(0,0,0);
 }
 
+a{
+    font-size: larger;
+}
+p{
+    text-align: center;
+}
 table{
+    
     border: solid 1px rgb(25, 100, 200);
     width: auto;
     text-align: center;
@@ -30,10 +46,50 @@ ol li{
     padding-left: 2em;
     margin-left: 2em;
 }
+
 ul li{
     font-size: 35;
     color: purple;
     padding-left: 2em;
     margin-left: 2em;
     background-color: blanchedalmond;
+}
+
+#cls01{
+    background-color: aqua;
+}
+
+#cls02{
+    color: white;
+    background-color: blue;
+}
+
+#cls03{
+    background-color: darksalmon;
+}
+
+#cls04{
+    background-color: chartreuse;
+}
+#cls05{
+    color: white;
+    background-color: green;
+}
+
+#cls06{
+    color: white;
+    background-color: brown;
+}
+
+#cls07{
+    background-color: cornflowerblue;
+}
+
+#cls08{
+    background-color: burlywood;
+}
+
+#cls09{
+    color: white;
+    background-color: blueviolet;
 }
